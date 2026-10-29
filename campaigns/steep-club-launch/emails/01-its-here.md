@@ -1,4 +1,4 @@
-Subject: The Steep Club is open, and you're first
+Subject: The Steep Club is open. You're hearing first
 Preview: You asked us to tell you when it opened. Here's a thank-you just for the waitlist.
 
 Hi {{first_name}},
@@ -15,7 +15,7 @@ Here's the idea: **good tea, picked for you, at your door every month.**
 
 **Just for the waitlist**
 
-As a thank-you for waiting, you get [founding offer]. This offer is only for people on the waitlist, and it ends on [offer end date].
+As a thank-you for waiting, you get our founding offer: [founding offer]. This offer is only for people on the waitlist, and it ends on [offer end date].
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 

@@ -6,7 +6,7 @@ Hi {{first_name}},
 Thinking about The Steep Club, but still have a question or two? Here are short answers to the ones we hear most.
 
 **How much does it cost?**
-[price] a month. As a waitlist member, you get [founding offer] until [offer end date].
+[price] a month. As a waitlist member, you get our founding offer: [founding offer] until [offer end date].
 
 **What's in each box?**
 [box contents], plus a brewing card for each tea. That's about [cups per box] cups.
@@ -18,10 +18,10 @@ Thinking about The Steep Club, but still have a question or two? Here are short 
 [skip, pause and cancel rules]
 
 **I'm new to loose-leaf tea. Will I know what to do?**
-Yes. Every tea comes with a simple brewing card. Follow the steps and you'll have a good cup.
+Yes. Every tea comes with a simple brewing card that walks you through each step.
 
 **Can I send it as a gift?**
-Yes. You can send it to someone else for 3, 6 or 12 months. [gift options]
+Yes. You can send it to someone else. [gift options]
 
 Still wondering about something? Just reply to this email and we'll get back to you.
 

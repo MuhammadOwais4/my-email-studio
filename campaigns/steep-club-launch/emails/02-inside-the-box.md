@@ -1,4 +1,4 @@
-Subject: Look inside your first box
+Subject: Take a look inside the first box
 Preview: Every tea in the first Steep Club box, and how simple it is to brew.
 
 Hi {{first_name}},
