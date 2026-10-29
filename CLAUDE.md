@@ -2,6 +2,8 @@
 
 This studio is for planning and writing email campaigns for a small business.
 
+@brand/voice.md
+
 ## Folders
 
 - `brand/` — who the business is: voice, tone, logo notes, and words to use or avoid.
