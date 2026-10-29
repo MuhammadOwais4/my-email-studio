@@ -1,11 +1,11 @@
 ---
 paths:
-  - "campaigns/**/emails/*.md"
+  - "campaigns/steep-club-launch/emails/*.md"
 ---
 
 # Email file rules
 
-These rules apply to every email file in a campaign's `emails/` folder, and only to those files.
+These rules apply to every email file in `campaigns/steep-club-launch/emails/`, and only to those files. They are written for Kettlebird Tea. Other campaigns need their own email rules file.
 
 Each email file must follow these rules, in this order from top to bottom.
 
