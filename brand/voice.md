@@ -32,7 +32,5 @@ Soft-Technix builds websites, custom software, mobile apps and digital marketing
 ```
 Best regards,
 The Soft-Technix Team
-[website]
+softtechnix.com
 ```
-
-Replace `[website]` with our real web address before the email is used.
