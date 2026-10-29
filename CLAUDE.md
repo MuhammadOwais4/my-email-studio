@@ -27,5 +27,5 @@ When you start a new campaign, add it to this table. If a campaign isn't listed,
 ## Rules
 
 1. **Write in plain English.** Short sentences, everyday words, no jargon.
-2. **Never send email to real people.** Write drafts only. Do not send, schedule, or test-send anything to a real address.
+2. **Never send email to real people.** Write drafts only. Do not send, schedule, or test-send anything to a real address. The one exception is sending through Resend, and only to Resend's test addresses (ending in `@resend.dev`) or to my own address, owaisdurvesh@gmail.com. A guard will enforce this.
 3. **Ask me before deleting anything.** This includes files, folders, and text inside files.
