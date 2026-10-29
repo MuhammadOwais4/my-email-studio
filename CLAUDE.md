@@ -18,7 +18,7 @@ Each campaign uses one brand voice file. Before planning, writing, or checking a
 | Brand | Voice file | Campaigns |
 |---|---|---|
 | Soft-Technix | `brand/voice.md` | None yet |
-| Kettlebird Tea (sample brand) | `brand/kettlebird-voice.md` | `campaigns/steep-club-launch/` |
+| Kettlebird Tea (sample brand) | `brand/kettlebird-voice.md` | `campaigns/steep-club-launch/`, `campaigns/test-bad/` (deliberately bad test email for the review script) |
 
 When you start a new campaign, add it to this table. If a campaign isn't listed, ask me which brand it's for.
 

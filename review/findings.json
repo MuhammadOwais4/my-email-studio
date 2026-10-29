@@ -1,0 +1,39 @@
+{
+  "findings": [
+    {
+      "file": "campaigns/steep-club-launch/email-3b-gift-buyers.md",
+      "line": 22,
+      "severity": "high",
+      "problem": "The greeting uses the wrong placeholder, \"Hi [first name],\". The rules say the greeting must use {{first_name}}. The email tool won't fill in [first name], so readers would see those exact words.",
+      "fix": "Change line 22 to \"Hi {{first_name}},\" and remove the \"[first name] comes from the email tool\" note on line 54."
+    },
+    {
+      "file": "campaigns/steep-club-launch/email-3b-gift-buyers.md",
+      "line": 46,
+      "severity": "high",
+      "problem": "The required footer is missing after the sign-off, so there is no unsubscribe link and no company address. Every other email in the campaign has this footer.",
+      "fix": "Right after \"[website]\", add these two plain-text lines: \"You're getting this because you joined the Kettlebird Tea waitlist.\" and \"Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}\". Nothing should come after them in the email text."
+    },
+    {
+      "file": "campaigns/steep-club-launch/email-3b-gift-buyers.md",
+      "line": 42,
+      "severity": "high",
+      "problem": "The main link isn't in the required format. It reads \"**[Join The Steep Club]** → [sign-up page link]?src=email3b\". That is not a real link, and it doesn't use the campaign address.",
+      "fix": "Replace it with \"[Join The Steep Club](https://kettlebird.example/steep-club)\". If you want to track which email brought each sign-up, ask first before adding ?src=email3b, because the rules say to keep the address as it is."
+    },
+    {
+      "file": "campaigns/steep-club-launch/email-3b-gift-buyers.md",
+      "line": 32,
+      "severity": "medium",
+      "problem": "\"That's it. Their first box is on its way.\" promises the box ships right away. The plan has no shipping dates yet, and the voice file says we only give delivery promises we know we can keep.",
+      "fix": "Use something calmer, like \"That's it. We'll take care of the rest.\" Or, once the shipping times are known, say when the first box ships."
+    },
+    {
+      "file": "campaigns/steep-club-launch/email-3b-gift-buyers.md",
+      "line": 1,
+      "severity": "medium",
+      "problem": "The file doesn't start with \"Subject: ...\" and then \"Preview: ...\" like the rules require. It opens with a title and a block of planning notes, and it gives two subject options. The planning notes and voice check (lines 1–18 and 48–66) are mixed in with the email, so the text can't be copied out cleanly.",
+      "fix": "Pick one subject (both options are under 50 characters) and put it on line 1 as \"Subject: ...\". Put the preview on line 2 as \"Preview: Pick 3, 6 or 12 months. We'll do the rest.\" Move the notes and voice check to a separate file. Also move the email into campaigns/steep-club-launch/emails/ so the email rules apply to it automatically. Ask before deleting anything from the current file."
+    }
+  ]
+}
