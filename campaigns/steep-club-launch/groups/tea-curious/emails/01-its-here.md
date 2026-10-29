@@ -1,4 +1,4 @@
-Subject: The Steep Club is open. You're hearing first
+Subject: Good tea you haven't met yet, picked for you
 Preview: You asked us to tell you when it opened. Here's a thank-you just for the waitlist.
 
 Hi {{first_name}},
